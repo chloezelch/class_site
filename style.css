@@ -1,0 +1,88 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: honeydew;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+h1, h3, h4{
+    color: tomato;
+    text-align: center;
+}
+
+h2{
+    color:rgb(72, 108, 177);
+    text-align: center;
+    font-style: oblique;
+}
+
+a{
+    color:rgb(179, 255, 0);
+
+}
+
+a:hover{
+    color: tomato;
+
+}
+
+a:visited{
+    color:chartreuse
+}
+
+a:visited:hover{
+    color: tomato;
+}
+
+ul, ol, p{
+    color:salmon;
+    background-color:honeydew;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+}
+
+hr{
+border-top: 3px dashed rgb(72, 108, 177);
+border-bottom: none;
+
+}
+
+p{
+    text-align: center;
+}
+
+img:hover{ 
+    position: relative; 
+    top: -5px;
+    right:-5px;
+} 
+
+img{
+    -webkit-filter: drop-shadow(5px 5px 5px rgb(182, 145, 96));
+  filter: drop-shadow(5px 5px 5px rgb(182, 145, 96));
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+  
+  /* The element to apply the animation to */
+  h2 {
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
