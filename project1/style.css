@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    background-color: antiquewhite;
+}
+
+.heading{
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+
+h1{
+    font-family: "Jacquarda Bastarda 9";
+    font-size: 60px;
+
+}
+
+.horse{
+        background-image: url(images/horse.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 600px;
+        width: 600px;
+        position:absolute;
+        left: -600;
+        top: -70px;
+}
+
+#synopsis{
+    font-family: 'Courier New', Courier, monospace;
+    width: 700px;
+    height: 100px;
+    padding-bottom: 100px;
+    position:absolute;
+    right: 100px;
+    top: 160px;
+    text-align: justify;
+}
+
+.salinger{
+    background-image: url(images/jd-salinger.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    left: 550px;
+    top: 0px;
+    }
+
+#bio{
+    width: 500px;
+    position: absolute;
+    top: 600px;
+    left: 20%;
+    text-align: justify;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.flexarea{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: 885px;
+    gap: 20px;
+    padding-bottom: 75px;
+}
+
+h4{
+    text-align: center;
+    position: relative;
+    top: 850px;
+    justify-content: center;
+    font-family: "Jacquarda Bastarda 9";
+    font-size: 48px;
+}
+
+.row {
+    display: flex;
+    position: absolute;
+    top: 1525px;
+  }
+  
+  .column {
+    flex: 50%;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 10px 40px 10px 40px;
+    text-align:justify;
+  }
+
+  .holden{
+    width: 650px;
+    position: absolute;
+    justify-content: center;
+    top: 1000px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
