@@ -1,0 +1,56 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 72px;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 45%;
+    margin: -350px auto 20px auto;
+    align-content: center;
+    font-size: 18px;
+}
+
+img{
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+        right: -100;
+        width: 25%;
+
+}
+
+/* Set the background color of body to tan */
+body {
+    background-color: rgb(255, 244, 229);
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(140, 140, 179);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(218, 218, 179);
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+    h1 {
+      font-size: 80px;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 700px) {
+  h1 {
+      font-size: 30px;
+    }
+  }
